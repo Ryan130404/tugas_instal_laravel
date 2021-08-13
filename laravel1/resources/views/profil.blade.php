@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>ZOE Gallery</title>
+        <title>Gallery</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -35,7 +35,7 @@
               <div class="col-md-3 col-sm-6">
                 <div class="portfolio-item third-item">
                   <div class="image">
-                    <img src="/img/third-item.jpg"></a>
+                    <img src="download.jpg"></a>
                   </div>
                   <div class="text">
                     <h4>Lorem, ipsum dolor.</h4>

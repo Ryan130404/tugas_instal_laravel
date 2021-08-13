@@ -90,7 +90,7 @@
                 <div class="links">
                     <a href="http://127.0.0.1:8000">Beranda</a>
                     <a href="http://127.0.0.1:8000/profil">Profil</a>
-                    <a href="http://127.0.0.1:8000/Galeri">Galeri</a>
+                    <a href="http://127.0.0.1:8000/galeri">Galeri</a>
                 </div>
             </div>
         </div>
