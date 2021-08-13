@@ -4,24 +4,29 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Beranda</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
         <style>
-            html, body {
-                background-color: #fff;
+            body {
+                background-color: midnightblue;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
             }
+            .spasi{
+                padding-top: 50px;
+                font-family: Arial;
+                font-size: 25px;
+            }
 
             .full-height {
-                height: 100vh;
+                height: auto;
             }
 
             .flex-center {
@@ -61,38 +66,31 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            .font-style{
+                font-size: 120px;
+                color:white;
+                background: #000;
+            }
+            a:hover{
+                background-color: aliceblue;
+                transition: 1s;
+            }
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
+        <div class="spasi">
+            <center><h3 style="color: #000">Welcome to my Laravel</h3></center>
+        </div>
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    <h3 style="color: black;">lara<span class="font-style">vel</span></h3>
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="http://127.0.0.1:8000">Beranda</a>
+                    <a href="http://127.0.0.1:8000/profil">Profil</a>
+                    <a href="http://127.0.0.1:8000/Galeri">Galeri</a>
                 </div>
             </div>
         </div>
